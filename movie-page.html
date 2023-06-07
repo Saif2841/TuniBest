@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="shortcut icon" href="icon.png"/>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <TItle>Movie Name</TItle>
+    <script src="https://kit.fontawesome.com/409f0901c6.js" crossorigin="anonymous"></script>
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Monoton&display=swap" rel="stylesheet">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/7.3.1/swiper-bundle.min.js" integrity="sha512-v+pIzqEVf0+O50Ls9scw6DDZT5On6G5wnXLLMSjYlfJJrNe+ZCWK849PBUYQDagZKc2125WKYJY3XugLNwwPfA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+
+</head>
+<body>
+
+    <nav class="navigation">
+        <input type="checkbox" class="menu-btn" id="menu-btn">
+        <label for="menu-btn" class="menu-icon">
+         <span class="nav-icon"></span>
+        </label>
+
+         <a href="index.html" class="logo">
+             Tuni<span>BEST</span>
+         </a>
+
+
+        <ul class="menu">
+            <li><a href="">HOME</a></li>
+            <li><a href="">GENRE</a></li>
+            <li><a href="">TV Shows</a></li>
+            <li><a href="">MOVIES</a></li>
+            <li><a href="">Contact</a></li>
+        </ul>
+        <form action="" class="search-box">
+            <input type="text" name="Search" placeholder="Search Movie" class="search-input" required/>
+            <button type="submit">Search</button>
+        </form>
+    </nav>
+
+
+
+    <section class="movie-banner">
+
+    <div class="m-banner-img">
+        <img src="12.jpg" alt="">
+    </div>
+
+
+    <!-------content---------->
+    <div class="banner-container">
+
+     <!-------title-container*********************---->
+       <div class="title-container">
+           <!--------title top-------->
+            <div class="title-top">
+                <!------title-------->
+              <div class="movie-title">
+                <h1>Plus Jamais Peur </h1>
+            </div>
+
+            <!-------more abot film-->
+            <div class="more-about-movie">
+                <span class="quality">Full HD</span>
+                <div class="rating">
+                    8.2 <img src="imdb.png" alt="imdb">
+                </div>
+                <span>May 21, 2011</span>
+                <span>87min</span>
+            </div>
+            <div class="language">
+                <span>Francais</span>
+            </div>
+         
+        </div>
+
+           <!--------title*---bottom------------>
+            <div class="title-bottom">
+                <!catogory----------------->
+                <div class="category">
+                    <strong>Category</strong><br/>
+                    <a href="#">Documentary</a>
+                </div>
+                <a href="https://www.dailymotion.com/video/x2lbubf" class="watch-btn">Watch Trailer</a>
+            </div>
+
+
+
+        </div>
+         <!-------play--*************************----->
+
+        <div class="play-btn-container">
+            <div class="play-btn">
+                <a href="#">
+                   <i class="fas fa-play"></i>
+               </a>
+           </div>
+         </div>
+         <!-----video------------>
+         <div id="play" class="play">
+              <div class="play-movie">
+                  <video id="m-video">
+                      <source src="">
+                  </video>
+              </div>
+
+         </div>
+
+    </section>
+
+
+    <!----banner-end------------->
+
+      
+
+    <section class="movie-details">
+             <strong>Plus Jamais Peur</strong>
+             <p>Suffering from Tunisia's ills, a character in the film says: "This revolution is not the result of destitution, but rather a cry of despair rising from a generation of graduates. It is neither the bread nor the jasmine revolution... Jasmine does not result in death, does not give rise to martyrs. It's the revolution of a people's devotion. We shall never again have any fear for this new Tunisia!" This comment perfectly summarizes Tunisian's frame of mind. That of the youth who made the first revolution of the virtual era, as well as the older people who always defied fear in order to resist the yoke of dictatorship.</p>
+    </section>
+
+
+
+
+
+    <section class="screenshots">
+        <strong>ScreenShots</strong>
+        <div class="screen-s-container">
+            <img src="peur1.jpg" alt="">
+            <img src="peur2.jpg" alt="">
+            <img src="peur3.jpg" alt="">
+            <img src="peur4.jpg" alt="">
+            <img src="peur5.jpg" alt="">
+            <img src="peur6.jpg" alt="">
+        </div>
+
+    </section>
+
+
+
+    <!----------download----------->
+    <section class="download-movie">
+        <div class="download-container">
+            <div class="download-box">
+                <span><i class="fas fa-serveur"></i>Server 1</span>
+                <span>Francais</span>
+                <span>720p</span>
+                <a href="https://www.futura-sciences.com/tech/telecharger/windows-activation-key-viewer-133-275-telechargement">Download</a>
+            </div>
+        </div>
+    </section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <!============jQuery--------------------->
+    <script src="js/jQuery.js"></script>
+
+
+
+    <script>
+   
+
+
+           /*----menu--btn--fixd when scroll------*/
+           $(window).scroll(function(){
+             if($(document).scrollTop() > 20){
+              $('.navigation').addClass('fix-icon');
+             }
+          else{
+             $('.navigation').removeClass('fix-icon');
+          }
+                 });
+    </script>
+
+
+
+
+
+
+</body>
+
+</html>
